@@ -1,0 +1,32 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.box {
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+body {
+    margin: 0px;
+}
+
+.botao {
+    width: 200px;
+    height: 40px;
+    margin: 0 0.25em;
+    order: 1;
+}
+
+.wrapper {
+    text-align: center;
+}
